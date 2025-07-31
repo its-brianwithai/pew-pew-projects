@@ -61,6 +61,15 @@ Downloads latest version from GitHub without git.
 1. `plx init` downloads the framework
 2. All other commands pass through to `make`
 
+### Default Commands
+
+| Command                 | Description                                                             |
+|-------------------------|-------------------------------------------------------------------------|
+| `plx pull main`         | Update to latest version from GitHub                                    |
+| `plx sync claude`       | Sync agents, prompts, and templates to .claude/                         |
+| `plx sync claude clean` | Clean sync - removes .claude/commands and .claude/agents before syncing |
+| `plx watch claude`      | Auto-sync on file changes in agents/ and prompts/                       |
+
 Add custom commands to Makefile:
 ```makefile
 deploy:
