@@ -13,14 +13,14 @@ Your task is to update an existing workflow based on {request}. If the request i
 
 <template>
 ## [Emoji] [Question]?
-	A. [Suggestion 1]
-	B. [Suggestion 2]
+    A. [Suggestion 1]
+    B. [Suggestion 2]
 </template>
 
 <example>
 ## 🔧 What aspect of the workflow needs updating?
-	A. Process steps (add/remove/reorder steps)
-	B. Configuration (orchestrator, agents, outputs)
+    A. Process steps (add/remove/reorder steps)
+    B. Configuration (orchestrator, agents, outputs)
 </example>
 
 <constraints>
@@ -38,4 +38,4 @@ $ARGUMENTS
 If the request is empty or unclear, begin by asking which workflow and what aspect to update.
 
 ---
-role: [[meta-workflow-specialist]]
+role: [[workflow-specialist]]

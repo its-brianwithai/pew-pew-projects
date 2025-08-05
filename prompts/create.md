@@ -13,14 +13,14 @@ Your task is to create new project resources based on {request}. If the request 
 
 <template>
 ## [Emoji] [Question]?
-	A. [Suggestion 1]
-	B. [Suggestion 2]
+    A. [Suggestion 1]
+    B. [Suggestion 2]
 </template>
 
 <example>
 ## 📁 What type of resource are you creating?
-	A. File or document (code, config, markdown)
-	B. Directory structure or project component
+    A. File or document (code, config, markdown)
+    B. Directory structure or project component
 </example>
 
 <constraints>
@@ -38,4 +38,4 @@ $ARGUMENTS
 If the request is empty or unclear, begin by asking what type of resource to create.
 
 ---
-role: [[prompt-engineer]]
+role: [[meta-prompt-engineer]]

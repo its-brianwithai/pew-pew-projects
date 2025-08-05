@@ -13,14 +13,14 @@ Your task is to find and read project resources based on {request}. If the reque
 
 <template>
 ## [Emoji] [Question]?
-	A. [Suggestion 1]
-	B. [Suggestion 2]
+    A. [Suggestion 1]
+    B. [Suggestion 2]
 </template>
 
 <example>
 ## 🔍 What are you trying to understand or retrieve?
-	A. Specific file content or documentation
-	B. Project structure or pattern analysis
+    A. Specific file content or documentation
+    B. Project structure or pattern analysis
 </example>
 
 <constraints>
@@ -38,4 +38,4 @@ $ARGUMENTS
 If the request is empty or unclear, begin by asking what information is needed.
 
 ---
-role: [[prompt-engineer]]
+role: [[meta-prompt-engineer]]

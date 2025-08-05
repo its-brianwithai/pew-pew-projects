@@ -13,14 +13,14 @@ Your task is to delete project resources based on {request}. If the request is e
 
 <template>
 ## [Emoji] [Question]?
-	A. [Suggestion 1]
-	B. [Suggestion 2]
+    A. [Suggestion 1]
+    B. [Suggestion 2]
 </template>
 
 <example>
 ## 🗑️ What needs to be removed?
-	A. Single file or resource
-	B. Multiple related files or entire component
+    A. Single file or resource
+    B. Multiple related files or entire component
 </example>
 
 <constraints>
@@ -38,4 +38,4 @@ $ARGUMENTS
 If the request is empty or unclear, begin by asking what should be deleted.
 
 ---
-role: [[prompt-engineer]]
+role: [[meta-prompt-engineer]]
